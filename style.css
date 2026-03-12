@@ -1,0 +1,49 @@
+body{
+font-family: Arial;
+margin:0;
+padding:0;
+background: linear-gradient(45deg, red, yellow, blue, green);
+color:white;
+text-align:center;
+}
+
+header{
+background:black;
+padding:20px;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+font-size:18px;
+}
+
+nav a:hover{
+color:yellow;
+}
+
+.home{
+padding:50px;
+}
+
+button{
+padding:10px 20px;
+font-size:16px;
+background:orange;
+border:none;
+cursor:pointer;
+}
+
+.products{
+padding:40px;
+}
+
+.product-box{
+display:inline-block;
+background:white;
+color:black;
+padding:20px;
+margin:10px;
+border-radius:10px;
+}
